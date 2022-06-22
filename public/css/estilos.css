@@ -1,0 +1,745 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+header {
+  padding: 0 6%;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:focus {
+  background: #cccccc;
+}
+
+a:hover {
+  color: #000000;
+}
+
+a:active {
+  background: #cccccc;
+  color: #000;
+}
+
+.click{
+  background: #cccccc;
+}
+
+.b {
+  font-weight: 700;
+  font-size: xx-large;
+}
+.video {
+  width: 100%;
+  height: 400px;
+}
+.pt-20{
+padding-top: 20px;
+}
+
+.header-top-bar-desktop {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+
+header div.header-top-bar-desktop nav a {
+  padding: 6px 12px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 1.2em;
+}
+
+header div.header-top-bar-desktop nav a:visited {
+  color: #000000;
+}
+
+header div.header-top-bar-desktop nav a:focus {
+  background: #cccccc;
+}
+
+header div.header-top-bar-desktop nav a:hover {
+  color: #000000;
+}
+
+header div.header-top-bar-desktop nav a:active {
+  background: #cccccc;
+  color: #000;
+}
+
+#lang {
+  height: 20px;
+  width: 100%;
+  background-color: #e6e6e6;
+  font-size: x-small;
+}
+
+div.lang {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 0 2%;
+}
+div.lang div.idioma {
+  padding: 2px 5px 0px 5px;
+  flex-wrap: nowrap;
+  color: #000;
+  cursor: pointer;
+}
+
+div.idioma a:hover {
+  color: #0298d3;
+}
+
+a.donar {
+  background-color: #a5e1f7;
+  padding: 3px 14px;
+  border: none;
+  border-radius: 7px;
+  color: rgb(0, 0, 0);
+}
+
+a:hover.donar {
+  background-color: #0099d1;
+  padding: 5px 14px;
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+}
+a:active.donar {
+  background-color: #0099d1;
+  padding: 5px 14px;
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+}
+
+main {
+  min-height: 65vh;
+}
+section#home {
+  min-height: 65vh;
+  margin-bottom: 20px;
+}
+section#nosotros{
+  font-size: 0.8em;
+}
+#slide-home {
+  background-image: url(../img/home-missao-mangundze.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+main > section {
+  padding: 25px 2% 0;
+}
+
+#top {
+  background-color: #a8e5fc;
+  display: flex;
+  border-top: 4px solid #00aff2;
+}
+
+#banner {
+  background-color: #00aff2;
+  border-bottom: 12px solid #fff;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#banner #banner-cc {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  width: 45%;
+  margin-right: 3%;
+}
+
+#banner div.img-donar {
+  background-image: url(../img/donar-missao-mangundze.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1 1 50%;
+  height: 100%;
+  margin-right: 3%;
+}
+footer {
+  min-height: 10vh;
+  background-color: #0188bb;
+  color: white;
+  margin: 0;
+  padding: 25px 2% 0;
+}
+#div-footer {
+  margin: auto;
+  max-width: 1200px;
+  padding-top: 15px;
+}
+#div-footer a {
+  color: #fff;
+}
+
+#menu-bottom {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+.redes {
+  display: flex;
+}
+.redes img {
+  padding: 0px 5px;
+}
+
+.flex {
+  display: flex;
+}
+.block {
+  display: block;
+  width: 100%;
+}
+
+.txt-logo {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+.tx-logo {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 0.5em;
+  word-spacing: 1px;
+  color: #383838;
+}
+.header-logo {
+  flex: 8 1 auto;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  padding: 15px 0px;
+}
+.destacado,
+.destacado2 {
+  font-family: 'Roboto Flex', sans-serif;
+  color: #333;
+  margin-bottom: 25px;
+}
+.tx-slide {
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+form .campo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+form .campo input {
+  height: 28px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+input[type='text']:focus {
+  background-color: #94d1cc;
+  outline: none;
+}
+
+input[type='email']:focus {
+  background-color: #94d1cc;
+  outline: none;
+}
+.div-button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+button {
+  background-color: #00aff2;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+hr {
+  border: 0.2px solid #9fcfd3;
+}
+#top-slide {
+  font-family: 'Roboto Flex', sans-serif;
+  display: flex;
+  padding: 25px;
+}
+
+#slide {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.divloader {
+  display: flex;
+  justify-content: center;
+}
+
+.link-destacado{
+  background-color: #ceeffc;
+  border-left: 2px solid #0099d1;
+  padding: 0px 10px;
+  font-size: 15px;
+}
+
+/* menu burguer */
+.header-top-bar {
+  width: 100%;
+  margin: auto;
+  padding: 0 5px;
+  align-items: center;
+  height: 80px;
+  background-color: #ffffff;
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 2rem;
+  left: 1rem;
+  padding: 4px;
+  background: white;
+  cursor: pointer;
+}
+
+#closeIcon {
+display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #00aff2;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+a.white{
+  color: #fff;
+  text-decoration: none;
+}
+a.white:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+a.white:active{
+  color: #000;
+  text-decoration: none;
+}
+/* end burguer*/
+.black {
+  color: #000;
+}
+section#sobre {
+  display: flex;
+  font-size: 18px;
+}
+.col40 {
+  flex: 1 1 50%;
+  padding-top: 30px;
+  border-right: 1px solid #a1a1a1;
+}
+
+.premios {
+  padding-top: 20px;
+}
+.premios li {
+  list-style: none;
+  line-height: 28px;
+  font-size: 16px;
+}
+.blue-light {
+  color: #00aff2;
+}
+.blue {
+  color: #22577e;
+}
+.yellow {
+  color: #fcdb3b;
+}
+.link{
+  font-size: 12px;
+}
+a.link {
+  color: #00aff2;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+/* card */
+
+h2 {
+  color: #0188bb;
+}
+
+
+
+@media (max-width: 768px) {
+  ul#card .booking-card::before {
+    background: rgba(10, 72, 112, 0.6);
+  }
+  ul#card .booking-card .book-container .content {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  ul#card .booking-card .informations-container {
+    transform: translateY(0px);
+  }
+  ul#card .booking-card .informations-container .more-information {
+    opacity: 1;
+  }
+}
+
+/* end card */
+
+/* Estilos Responsive */
+@media screen and (min-width: 0px) {
+  .header-top-bar {
+    display: flex;
+  }
+  .header-top-bar-desktop {
+    display: none;
+  }
+  .img-banner {
+    width: 60vw;
+  }
+  .destacado {
+    font-size: 0.8em;
+    line-height: 25px;
+  }
+  .destacadoNota {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+  }
+  h1,
+  #banner-cc {
+    font-size: 0.8em;
+  }
+  #banner {
+    height: 35vh;
+    background-position: 50% auto;
+  }
+  #slide-home {
+    margin-top: 0px;
+    background-size: contain;
+    background-position: 100% auto;
+    height: 60vw;
+  }
+  #slide {
+    padding-top: 90px;
+    height: 50vw;
+    padding: 25px 2% 0;
+  }
+  .tit-slide {
+    font-size: 1.5em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+  }
+  .tx-slide {
+    font-size: 0.8em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+  }
+  #cont {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  ul#card .booking-card {
+    justify-content: center;
+    width: 90%;
+    flex: 0 0 95%;
+  }
+  .destacadoNota {
+    font-size: 0.7em;
+    line-height: 10px;
+    font-weight: 400;
+  }
+  .proyecto-top {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    padding: 0px 10px;
+  }
+
+  .proyecto-top .right{
+   padding: 0px 35px;
+   }
+  .img-nos {
+    margin-right: 10px;
+    height: 35vh;
+  }
+  .img-nos2 {
+   width: 100%;
+  }
+  #submenu{
+    display:none;
+  }
+  .img-historia{
+    width: 85vw;
+  }
+  .img-proy {
+    width: 90vw;
+  }
+  .img-proy-g {
+    width: 90vw;
+  }
+}
+
+/* MD -- Laptops */
+@media (min-width: 768px) {
+  .header-top-bar {
+    display: none;
+  }
+  .header-top-bar-desktop {
+    display: flex;
+    align-items: center;
+  }
+  header nav a {
+    font-size: 1em;
+  }
+  #slide-home,
+  #slide {
+    background-size: contain;
+  }
+  .destacado {
+    font-size: 1.2em;
+    line-height: 38px;
+  }
+  .destacado2 {
+    font-size: 1.2em;
+    line-height: 34px;
+  }
+  .tit-slide {
+    font-size: 3em;
+    font-weight: 600;
+  }
+  .tx-slide {
+    font-size: 1em;
+    line-height: 25px;
+  }
+  h1,
+  #banner-cc {
+    font-size: 1em;
+  }
+  #cont {
+    flex-direction: row;
+  }
+  ul#card .booking-card {
+    justify-content: center;
+    width: 30%;
+    flex: 0 0 30%;
+  }
+  .destacadoNota {
+    font-size: 0.9em;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .proyecto-top {
+    flex-direction: row;
+    font-size: 0.8em;
+    padding: 0px;
+  }
+  .proyecto-top .left{
+   flex: 1 1 35%;
+   padding-right: 15px;
+  }
+  .proyecto-top .left2{
+    flex: 1 1 70%;
+    padding-right: 15px;
+   }
+  .img-nos {
+    height: 30vh;
+  }
+  .img-nos2 {
+    width: auto;
+    height: 30vh;
+  }
+  a.link {
+    font-size: 12px;
+}
+#submenu{
+  display:block;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 12px;
+}
+#submenu a{
+  padding: 0px 5px;
+}
+.logo{
+  height: 50px;
+}
+.img-historia{
+  width: 85%;
+}
+.img-proy {
+  width: 70vw;
+}
+.img-proy-g {
+  width: 70vw;
+}
+}
+
+/* LG -- Computadoras */
+
+@media (min-width: 1200px) {
+  .header-top-bar {
+    display: none;
+  }
+  .header-top-bar-desktop {
+    display: flex;
+    padding: 0px 2% 0;
+  }
+  .header-top-bar-desktop,
+  main > section,
+  #nosotros, #donar,
+  #slide, #sub,
+  #top-slide,
+  .donwload,
+  div.lang {
+    margin: auto;
+    max-width: 1200px;
+  }
+  header nav a {
+    font-size: 1.2em;
+  }
+  .img-banner {
+    width: 100%;
+  }
+  .destacado {
+    font-size: 1.5em;
+    line-height: 38px;
+  }
+  h1,
+  #banner-cc {
+    font-size: 1.2em;
+  }
+  #banner {
+    height: 25vh;
+  }
+  #banner #banner-cc {
+    width: 45%;
+    margin-right: 3%;
+  }
+  #slide-home {
+    margin-top: 0px;
+    background-size: contain;
+    background-position: 100% auto;
+    height: 60vw;
+  }
+  #slide {
+    height: 40vw;
+  }
+  .tit-slide {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  .tx-slide {
+    font-size: 1.6em;
+    line-height: 35px;
+  }
+  .destacadoNota {
+    font-size: 1em;
+    line-height: 22px;
+    font-weight: 500;
+  }
+  .proyecto-top {
+   flex-direction: row;
+    font-size: 1em;
+  }
+
+  .img-nos {
+    height: 35vh;
+  }
+  #nosotros, #donar{
+    padding: 0px 2%;
+  }
+  .logo{
+    height: auto;
+  }
+
+  .img-historia{
+    width: auto;
+  }
+  .img-proy {
+    width: 50vw;
+  }
+  .img-proy-g {
+    width: 25vw;
+  }
+}
